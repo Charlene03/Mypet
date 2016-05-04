@@ -1,5 +1,5 @@
 body{
-	background-color:#95FFB7;
+	background-color: #b7d1c4;
 }
 
 #header{
@@ -36,12 +36,12 @@ li{
 img{
 	height:170px;
 	width:170px;
-	box-shadow:10px 10px rgba(o,o,o,o,2);
+	box-shadow: rgba(o,o,o,o.4);
 }
 
 h2{
 	font-weight: bold;
-	test-align:center;
+	text-align:center;
 	padding-top:25px;
 	padding-bottom: 25px;
 	color:#95FFB7;
@@ -61,8 +61,30 @@ table{
 	background-color:#5D9255;
 	float:right;
 	border-bottom-radius:15px;
+
 }
 td{
+	height:60px;
+	width:40px;
+	box-shadow:none;
+}
+
+#footer{
+	clear:both;
+	position: relative;
+	background-color: #213929;
+	bottom: 10px;
 	height:75px;
-	width:75px;
+
+}
+button{
+	border: 2px;
+	float:left;
+	position:relative;
+	left:229px;
+	bottom:-20px;
+	border-radius: 5px;
+	height:30px;
+	width:150px;
+	background-color: red;#92FDB5
 }
